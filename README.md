@@ -1,2 +1,2 @@
 # SAndroidE
-SAndrodiE's experiments
+SAndroidE's experiments
