@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="it.unibs.ste.smafgsandroide.MainActivity">
+
+    <LinearLayout
+        android:layout_width="362dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="the Reader"
+            android:textColor="@color/colorAccent"
+            android:textSize="44sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="95dp" />
+
+        <TextView
+            android:id="@+id/tvAnalogValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:text="Connectiong..."
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="65sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  0                                         200"
+            android:textSize="30sp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="0.12"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="162dp" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_weight="0.26"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
